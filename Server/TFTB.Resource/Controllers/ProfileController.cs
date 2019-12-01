@@ -16,9 +16,6 @@ namespace TFTB.Resource.Controllers
     {
         public async Task<IActionResult> Get()
         {
-            var idToken = await HttpContext.GetTokenAsync("id_token");
-
-            var _idToken = await JwtSecurityTokenHandler().ReadJwtToken(idToken);
             return new JsonResult(from c in User.Claims select new { c.Type, c.Value });
         }
     }

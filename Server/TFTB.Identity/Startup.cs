@@ -15,6 +15,8 @@ using Microsoft.EntityFrameworkCore;
 using TFTB.Identity.Models;
 using Microsoft.AspNetCore.Identity;
 using TFTB.Identity.Configuration;
+using IdentityServer4.AspNetIdentity;
+using TFTB.Identity.Services;
 
 namespace TFTB.Identity
 {
@@ -58,7 +60,8 @@ namespace TFTB.Identity
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryApiResources(Config.GetApiResources())
                 .AddInMemoryClients(Config.GetClients())
-                .AddAspNetIdentity<User>();
+                .AddAspNetIdentity<User>()
+                .AddProfileService<ProfileService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

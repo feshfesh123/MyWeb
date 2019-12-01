@@ -1,0 +1,8 @@
+C:\Users\NNT\Desktop\MyWeb\Server\TFTB.Server.Shared\bin\Debug\netcoreapp3.0\TFTB.Server.Shared.deps.json
+C:\Users\NNT\Desktop\MyWeb\Server\TFTB.Server.Shared\bin\Debug\netcoreapp3.0\TFTB.Server.Shared.dll
+C:\Users\NNT\Desktop\MyWeb\Server\TFTB.Server.Shared\bin\Debug\netcoreapp3.0\TFTB.Server.Shared.pdb
+C:\Users\NNT\Desktop\MyWeb\Server\TFTB.Server.Shared\obj\Debug\netcoreapp3.0\TFTB.Server.Shared.csprojAssemblyReference.cache
+C:\Users\NNT\Desktop\MyWeb\Server\TFTB.Server.Shared\obj\Debug\netcoreapp3.0\TFTB.Server.Shared.AssemblyInfoInputs.cache
+C:\Users\NNT\Desktop\MyWeb\Server\TFTB.Server.Shared\obj\Debug\netcoreapp3.0\TFTB.Server.Shared.AssemblyInfo.cs
+C:\Users\NNT\Desktop\MyWeb\Server\TFTB.Server.Shared\obj\Debug\netcoreapp3.0\TFTB.Server.Shared.dll
+C:\Users\NNT\Desktop\MyWeb\Server\TFTB.Server.Shared\obj\Debug\netcoreapp3.0\TFTB.Server.Shared.pdb

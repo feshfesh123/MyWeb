@@ -8297,11 +8297,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NNT\\source\\repos\\TFT\\Server\\TFTB.Resource\\TFTB.Resource.csproj",
+      "projectUniqueName": "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Resource\\TFTB.Resource.csproj",
       "projectName": "TFTB.Resource",
-      "projectPath": "C:\\Users\\NNT\\source\\repos\\TFT\\Server\\TFTB.Resource\\TFTB.Resource.csproj",
+      "projectPath": "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Resource\\TFTB.Resource.csproj",
       "packagesPath": "C:\\Users\\NNT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NNT\\source\\repos\\TFT\\Server\\TFTB.Resource\\obj\\",
+      "outputPath": "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Resource\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

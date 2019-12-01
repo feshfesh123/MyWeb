@@ -29,14 +29,12 @@ namespace TFTB.Identity.Controllers
             {
                 return BadRequest(ModelState);
             }
-            var user = new User() { Email = model.Email, UserName = model.Email };
+            var user = new User() { Email = model.Email, UserName = model.Email, Fullname = model.Fullname, Money = 0 };
 
             var result = await userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
             {
-                await userManager.AddClaimAsync(user, new System.Security.Claims.Claim("name", model.Fullname));
-                await userManager.AddClaimAsync(user, new System.Security.Claims.Claim("money", "0"));
                 return Ok(new RegisterResponseViewModel(user));
             }
 

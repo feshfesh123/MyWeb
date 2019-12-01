@@ -11,12 +11,14 @@ namespace TFTB.Identity.ViewModels
         public string Id { get; set; }
         public string Fullname { get; set; }
         public string Email { get; set; }
+        public string Money { get; set; }
 
         public RegisterResponseViewModel(User user)
         {
             Id = user.Id;
-            Fullname = user.Claims.FirstOrDefault(x => x.ClaimType == "name").ClaimValue;
+            Fullname = user.Fullname;
             Email = user.Email;
+            Money = user.Money.ToString();
         }
     }
 }

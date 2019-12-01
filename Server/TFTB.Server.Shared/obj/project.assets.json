@@ -3349,11 +3349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NNT\\source\\repos\\TFT\\Server\\TFTB.Server.Shared\\TFTB.Server.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Server.Shared\\TFTB.Server.Shared.csproj",
       "projectName": "TFTB.Server.Shared",
-      "projectPath": "C:\\Users\\NNT\\source\\repos\\TFT\\Server\\TFTB.Server.Shared\\TFTB.Server.Shared.csproj",
+      "projectPath": "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Server.Shared\\TFTB.Server.Shared.csproj",
       "packagesPath": "C:\\Users\\NNT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NNT\\source\\repos\\TFT\\Server\\TFTB.Server.Shared\\obj\\",
+      "outputPath": "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Server.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

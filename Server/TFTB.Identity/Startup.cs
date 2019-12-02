@@ -17,6 +17,8 @@ using Microsoft.AspNetCore.Identity;
 using TFTB.Identity.Configuration;
 using IdentityServer4.AspNetIdentity;
 using TFTB.Identity.Services;
+using TFTB.Data.Context;
+using TFTB.Data;
 
 namespace TFTB.Identity
 {
@@ -39,6 +41,8 @@ namespace TFTB.Identity
             services.AddIdentity<User, Role>()
                 .AddEntityFrameworkStores<TFTBDbcontext>()
                 .AddDefaultTokenProviders();
+
+            services.AddResourceData();
 
             services.Configure<IdentityOptions>(options => {
                 options.Password.RequiredLength = 6;

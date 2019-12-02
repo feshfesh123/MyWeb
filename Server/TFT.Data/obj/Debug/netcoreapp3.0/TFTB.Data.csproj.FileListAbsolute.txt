@@ -1,0 +1,9 @@
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\bin\Debug\netcoreapp3.0\TFTB.Data.deps.json
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\bin\Debug\netcoreapp3.0\TFTB.Data.dll
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\obj\Debug\netcoreapp3.0\TFTB.Data.AssemblyInfoInputs.cache
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\obj\Debug\netcoreapp3.0\TFTB.Data.AssemblyInfo.cs
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\bin\Debug\netcoreapp3.0\TFTB.Data.runtimeconfig.json
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\bin\Debug\netcoreapp3.0\TFTB.Data.runtimeconfig.dev.json
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\bin\Debug\netcoreapp3.0\TFTB.Data.pdb
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\obj\Debug\netcoreapp3.0\TFTB.Data.dll
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\obj\Debug\netcoreapp3.0\TFTB.Data.pdb

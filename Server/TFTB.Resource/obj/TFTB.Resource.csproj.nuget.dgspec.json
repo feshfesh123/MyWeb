@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Resource\\TFTB.Resource.csproj": {}
+    "C:\\Users\\ngoct\\OneDrive\\Documents\\MyWeb\\Server\\TFTB.Resource\\TFTB.Resource.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Resource\\TFTB.Resource.csproj": {
+    "C:\\Users\\ngoct\\OneDrive\\Documents\\MyWeb\\Server\\TFTB.Resource\\TFTB.Resource.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Resource\\TFTB.Resource.csproj",
+        "projectUniqueName": "C:\\Users\\ngoct\\OneDrive\\Documents\\MyWeb\\Server\\TFTB.Resource\\TFTB.Resource.csproj",
         "projectName": "TFTB.Resource",
-        "projectPath": "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Resource\\TFTB.Resource.csproj",
-        "packagesPath": "C:\\Users\\NNT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NNT\\Desktop\\MyWeb\\Server\\TFTB.Resource\\obj\\",
+        "projectPath": "C:\\Users\\ngoct\\OneDrive\\Documents\\MyWeb\\Server\\TFTB.Resource\\TFTB.Resource.csproj",
+        "packagesPath": "C:\\Users\\ngoct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ngoct\\OneDrive\\Documents\\MyWeb\\Server\\TFTB.Resource\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\NNT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngoct\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

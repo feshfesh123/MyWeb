@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using TFTB.Data;
 
 namespace TFTB.Resource
 {
@@ -33,6 +34,11 @@ namespace TFTB.Resource
                     options.Audience = "api1";
                 });
 
+            services.AddResourceData();
+
+            services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader()));
 
             services.AddControllers();
         }
@@ -45,7 +51,7 @@ namespace TFTB.Resource
                 app.UseDeveloperExceptionPage();
             }
 
-            
+            app.UseCors("AllowAll");
 
             app.UseHttpsRedirection();
 

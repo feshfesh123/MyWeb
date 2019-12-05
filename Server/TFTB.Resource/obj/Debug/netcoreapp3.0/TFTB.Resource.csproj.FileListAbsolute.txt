@@ -231,3 +231,6 @@ C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFTB.Resource\obj\Debug\netcoreap
 C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFTB.Resource\obj\Debug\netcoreapp3.0\TFTB.Resource.csproj.CopyComplete
 C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFTB.Resource\obj\Debug\netcoreapp3.0\TFTB.Resource.dll
 C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFTB.Resource\obj\Debug\netcoreapp3.0\TFTB.Resource.pdb
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFTB.Resource\obj\Debug\netcoreapp3.0\TFTB.Resource.csprojAssemblyReference.cache
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFTB.Resource\bin\Debug\netcoreapp3.0\TFTB.Data.dll
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFTB.Resource\bin\Debug\netcoreapp3.0\TFTB.Data.pdb

@@ -6,8 +6,10 @@ using IdentityModel;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using TFTB.Identity.Models;
 using TFTB.Identity.ViewModels;
+using TFTB.Data.Repository;
 
 namespace TFTB.Identity.Controllers
 {
@@ -35,6 +37,9 @@ namespace TFTB.Identity.Controllers
 
             if (result.Succeeded)
             {
+                await HttpContext.RequestServices.GetRequiredService<IUserRepository>()
+                    .Create(new TFTB.Data.Entities.User { Id = user.Id, Money = 0, Name = user.Fullname });
+
                 return Ok(new RegisterResponseViewModel(user));
             }
 

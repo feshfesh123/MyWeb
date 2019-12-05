@@ -8,7 +8,7 @@ namespace TFTB.Data.Context
 {
     public class TFTDbContext : DbContext
     {
-        public TFTDbContext(DbContextOptions options) : base(options)
+        public TFTDbContext(DbContextOptions<TFTDbContext> options) : base(options)
         {
         }
         public DbSet<User> Users { get; set; }

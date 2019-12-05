@@ -27,6 +27,7 @@ namespace TFTB.Identity.Services
             var claims = new List<Claim>();
             claims.Add(new Claim("fullname", user.Fullname));
             claims.Add(new Claim("money", user.Money.ToString()));
+            claims.Add(new Claim("id", user.Id));
 
             context.IssuedClaims = claims;
         }

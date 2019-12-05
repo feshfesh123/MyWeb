@@ -10,7 +10,7 @@ namespace TFTB.Identity.Data
 {
     public class TFTBDbcontext : IdentityDbContext<User, Role, string>
     {
-        public TFTBDbcontext(DbContextOptions options) : base(options)
+        public TFTBDbcontext(DbContextOptions<TFTBDbcontext> options) : base(options)
         {
      
         }

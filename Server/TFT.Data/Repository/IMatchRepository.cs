@@ -6,7 +6,7 @@ using TFTB.Data.Entities;
 
 namespace TFTB.Data.Repository
 {
-    interface IMatchRepository
+    public interface IMatchRepository
     {
         Task<List<Join>> GetJoins(string id);
         Task<List<Request>> GetRequests(string id);

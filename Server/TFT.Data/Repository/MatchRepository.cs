@@ -9,7 +9,7 @@ using TFTB.Data.Entities;
 
 namespace TFTB.Data.Repository
 {
-    class MatchRepository : IMatchRepository
+    internal class MatchRepository : IMatchRepository
     {
         private readonly TFTDbContext dbContext;
 

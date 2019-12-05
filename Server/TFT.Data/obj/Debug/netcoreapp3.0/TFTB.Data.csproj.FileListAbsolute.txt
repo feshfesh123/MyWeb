@@ -7,3 +7,4 @@ C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\bin\Debug\netcoreapp3.0\
 C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\bin\Debug\netcoreapp3.0\TFTB.Data.pdb
 C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\obj\Debug\netcoreapp3.0\TFTB.Data.dll
 C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\obj\Debug\netcoreapp3.0\TFTB.Data.pdb
+C:\Users\ngoct\OneDrive\Documents\MyWeb\Server\TFT.Data\obj\Debug\netcoreapp3.0\TFTB.Data.csprojAssemblyReference.cache

@@ -6,9 +6,10 @@ using TFTB.Data.Entities;
 
 namespace TFTB.Data.Repository
 {
-    interface IUserRepository
+    public interface IUserRepository
     {
         Task<User> GetById(string id);
         Task<bool> Update(User user);
+        Task<bool> Create(User user);
     }
 }

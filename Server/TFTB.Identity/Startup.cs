@@ -64,8 +64,8 @@ namespace TFTB.Identity
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryApiResources(Config.GetApiResources())
                 .AddInMemoryClients(Config.GetClients())
-                .AddAspNetIdentity<User>()
-                .AddProfileService<ProfileService>();
+                .AddAspNetIdentity<User>();
+                //.AddProfileService<ProfileService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

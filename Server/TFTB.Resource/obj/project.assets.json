@@ -2574,6 +2574,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "TFTB.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TFTB.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TFTB.Data.dll": {}
+        }
       }
     }
   },
@@ -8279,6 +8293,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "TFTB.Data/1.0.0": {
+      "type": "project",
+      "path": "../TFT.Data/TFTB.Data.csproj",
+      "msbuildProject": "../TFT.Data/TFTB.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8287,7 +8306,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.0.0",
       "Microsoft.Extensions.Logging.Debug >= 3.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.0.0",
+      "TFTB.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8319,7 +8339,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ngoct\\OneDrive\\Documents\\MyWeb\\Server\\TFT.Data\\TFTB.Data.csproj": {
+              "projectPath": "C:\\Users\\ngoct\\OneDrive\\Documents\\MyWeb\\Server\\TFT.Data\\TFTB.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
